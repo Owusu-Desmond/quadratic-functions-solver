@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quadratic Equation Solver</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./images/formular.png">
+
+</head>
+<body>
+    <h1>Quadratic Equation Solver</h1>
+    <p>A quadratic equation is an algebraic expression of the second degree in x. 
+    The quadratic equation in its standard form is 
+    <span style="color: red;">a</span>x<sup>2</sup> + <span style="color: red;">b</span>x + <span style="color: red;">c</span> = 0, where a, b are the 
+    coefficients, c is the constant term, and x is the variable</p>
+    <p>Since the variable x is of the second degree, there are two roots or answer for this quadratic equation. The roots of the quadratic 
+        equation can be found by either solving by factorizing or through the use of a formula</p>
+    <img src="./images/formular.png" alt="formular"/>
+    <div id="form">
+        <label>Enter the value of <span style="color: red;">a </span>: </label>
+        <input type="number" id="a" placeholder="enter a" required><br>
+        <label>Enter the value of <span style="color: red;">b </span>: </label>
+        <input type="number" id="b" placeholder="enter b" required><br>
+        <label>Enter the value of <span style="color: red;">c </span>: </label>
+        <input type="number" id="c" placeholder="enter c" required><br>
+        <input onclick="solve()" value="Solve" type="submit" id="submit">
+    </div>
+    <div id="display-answers">
+        The values of x display here.
+    </div>
+    <footer>
+    <p>Programmed By <i><b>Desmond Owusu Ansah</b></i></p>
+    <p>Email : <b>desmond0406114009@gmail.com</b></p>
+    </footer>
+    <script  src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
+body{
+    background-color: lightblue;
+    font-family: 'Dongle', sans-serif;
+    line-height: 1cm;
+}
+h1{
+    text-align: center;
+    color: blue;
+    font-size: 50px;
+}
+body > p{
+    font-size: 40px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+img{
+    width: 40%;
+    height: auto;
+    margin-left: 30%;
+}
+#form{
+    margin-left: 30%;
+    font-size: 30px;
+}
+#form > input{
+    height: 0.7cm  ;
+}
+#submit{
+    height: 0.7cm  ;
+    margin-left: 5cm;
+}
+#display-answers{
+    text-align: center;
+    font-size: 45px;
+    color: blue;
+}
+footer{
+    font-size: 40px;
+    text-align: center;
+}
+@media screen and (max-width: 1000px){
+    body > p{
+        font-size: 30px;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    h1{
+        font-size: 40px;
+    }
+    img{
+        width: 74%;
+        height: auto;
+        margin-left: 13%;
+    }
+
+    #form{
+        margin-left: 15%;
+        font-size: 25px;
+    }
+    #form > input{
+        height: 0.5cm  ;
+    }
+    #submit{
+        height: 0.7cm  ;
+        margin-left: 4cm;
+    }
+    #display-answers{
+        text-align: center;
+        font-size: 30px;
+        color: blue;
+    }
+    footer{
+        font-size: 30px;
+        text-align: center;
+    }
+}
+    
