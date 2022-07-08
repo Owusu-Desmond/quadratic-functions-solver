@@ -29,7 +29,7 @@ Access the the online version of my application with this link
 - Github [@Owusu-Desmond](https://github.com/Owusu-Desmond)
 - Twitter [@DesmondOwusuDev](https://twitter.com/DesmondOwusuDev)
 - LinkedIn [@desmond-owusu-ansah](https://www.linkedin.com/in/desmond-owusu-ansah-09274a223/)
-- Dev.to [desmondowusudev]https://dev.to/desmondowusudev
+- Dev.to [desmondowusudev](https://dev.to/desmondowusudev)
 
 ## 🤝 Contributing
 
